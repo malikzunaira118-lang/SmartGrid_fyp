@@ -15,7 +15,7 @@ const char* ssid = "WIFI_SSID";
 const char* password = "password";
 
 // Render URL (Backend)
-const char* websocket_server_host = "smartgridxbackend.onrender.com"; 
+const char* websocket_server_host = "smartgridfypbackend.onrender.com"; 
 const uint16_t websocket_server_port = 443; // 443 for SSL
 const char* websocket_path = "/ws/hardware/house"; 
 
