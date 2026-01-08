@@ -13,7 +13,7 @@ import {
   Power
 } from 'lucide-react';
 
-const WS_URL = "wss://smartgridxbackend.onrender.com/ws/client"; 
+const WS_URL = "wss://smartgridfypbackend.onrender.com/ws/client"; 
 
 const defaultSystemData = {
   pole: { connected: false, voltage: 0, power: 0, current: 0, energy: 0, frequency: 0, pf: 0 },
