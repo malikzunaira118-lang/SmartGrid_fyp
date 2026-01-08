@@ -16,7 +16,7 @@ DATABASE_URL = "postgresql://neondb_owner:npg_ciwE76UuTKdS@ep-empty-wave-a1qdt4l
 # Allow CORS for React Frontend
 origins = [
     "http://localhost:5173",           
-    "https://smartgrid_fyp.onrender.com" 
+    "https://smartgridx.onrender.com" 
 ]
 
 app.add_middleware(
