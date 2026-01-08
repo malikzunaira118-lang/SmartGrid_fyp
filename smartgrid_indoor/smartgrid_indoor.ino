@@ -1,6 +1,6 @@
 /*
  * FYP: Smart Gridx - Node B (SPAN PANEL / HOUSE SIDE)
- * UPDATED: Replaced DHT11 with DS18B20 Waterproof Sensor
+ * UPDATED: DS18B20 Waterproof Sensor
  */
 
 #include <WiFi.h>
