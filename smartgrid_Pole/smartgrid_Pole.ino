@@ -10,8 +10,8 @@
 #include <PZEM004Tv30.h>
 
 // ================= CONFIGURATION =================
-const char* ssid = "WAJI NIAZI";
-const char* password = "idontknow";
+const char* ssid = "WIFI_SSID";
+const char* password = "password";
 
 // UPDATED: Render URL (Backend)
 const char* websocket_server_host = "smartgridxbackend.onrender.com"; 
