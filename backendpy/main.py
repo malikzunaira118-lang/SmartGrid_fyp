@@ -11,12 +11,12 @@ from datetime import datetime
 app = FastAPI(title="Smart Gridx Backend")
 
 # Database Connection String
-DATABASE_URL = "postgresql://neondb_owner:npg_KiG3oYvEQaA2@ep-bold-feather-a1sewfka-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL = "postgresql://neondb_owner:npg_ciwE76UuTKdS@ep-empty-wave-a1qdt4ld-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 # Allow CORS for React Frontend
 origins = [
     "http://localhost:5173",           
-    "https://smartgridx.onrender.com" 
+    "https://smartgrid_fyp.onrender.com" 
 ]
 
 app.add_middleware(
